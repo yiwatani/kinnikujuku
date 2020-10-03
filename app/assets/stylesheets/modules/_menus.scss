@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  font-family: "はれのそら明朝";
+  font-weight: bold;
+}
+
+.Header{
+  height: 120px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  color: white;
+  border-bottom: 1px solid #555555;
+  font-size: 50px;
+  .kjLogo {
+    width: 280px;
+    height: 140px;
+    margin-top: 10px;
+  }
+}
+
+.Wrapper{
+  .Areas{
+    height: 60px;
+    width: 100vw;
+    background-color: #111111;
+    color: whitesmoke;
+  }
+  .Menus{
+    height: 100%;
+    width: 100vw;
+    background-color:	#BBBBBB;
+  }
+}
+
+.Area{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  height: 100%;
+  &__contents{
+    padding-right: 50px;
+    &__introduction{
+      padding-top: 7px;
+      font-size: 14px;
+    }
+    &__name{
+      font-size: 20px;
+      font-weight: lighter;
+    }
+  }
+}
+
+.Menu{
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  &__contents{
+    height: 400px;
+    width: 47%;
+    margin: 20px 0;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #BBBBBB;
+    border: 1px solid #DDDDDD;
+    p{
+      margin: 5px 0;
+    }
+    .gif{
+      height: 80%;
+      width: 80%;
+    }
+  }
+}
+
+
